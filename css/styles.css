@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+
 }
 
 h1,
@@ -552,4 +553,15 @@ footer a span {
   background-color: #4d5ae5;
   color: #ffffff;
   margin-left: 24px;;
+}
+
+.modal {
+  position: sticky; /* Sabitlemek için kullanılır */
+  top: 20px; /* Sayfada yukarıdan 20px mesafede sabitlenir */
+  z-index: 1000; /* Diğer öğelerin üstünde görünür */
+  padding: 20px; /* İç boşluklar */
+  background-color: white; /* Arka plan rengi */
+  border: 1px solid #ddd; /* Kenarlık */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+  width: 300px; /* Form genişliği */
 }
