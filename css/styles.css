@@ -2,7 +2,6 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-
 }
 
 h1,
@@ -88,9 +87,8 @@ header a span {
   left: 0;
   border-radius: 2px;
   transition-duration: 250ms;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1); ;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .web-navi-item:hover {
   color: #404bbf;
@@ -535,28 +533,28 @@ footer a span {
   fill: #31d0aa;
 }
 
-#form-label{
+#form-label {
   display: flex;
   flex-direction: column;
   color: #ffffff;
   margin-bottom: 16px;
 }
-#form-input{
-  border:1px solid #ffffff;
+#form-input {
+  border: 1px solid #ffffff;
   border-radius: 4px;
   background: transparent;
   max-width: 264px;
   max-height: 40px;
   padding: 8px 16px;
 }
-#form-input::placeholder{
+#form-input::placeholder {
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
   color: #ffffff;
   letter-spacing: 4%;
 }
-#foot-button{
+#foot-button {
   max-width: 165px;
   max-height: 40px;
   background-color: #4d5ae5;
@@ -568,28 +566,32 @@ footer a span {
   justify-content: center;
   border-radius: 4px;
   cursor: pointer;
-  gap:16px;
+  gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-#foot-button:hover{
+#foot-button:hover {
   background-color: #404bbf;
 }
-#foot-button:focus{
+#foot-button:focus {
   background: #404bbf;
 }
-.form-group{
+.form-group {
   display: flex;
   align-items: center;
 }
 
 .modal {
   position: fixed;
-  top: 80px; 
+  top: 80px;
   border-radius: 4px;
-  box-shadow: 0px 1px 1px 0px #00000024,0px 1px 3px 0px #0000001F,0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001f,
+    0px 2px 1px 0px #00000033;
   width: 408px;
   max-height: 584px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fcfcfc;
   padding-left: 24px;
   padding-right: 24px;
@@ -597,24 +599,104 @@ footer a span {
   padding-bottom: 24px;
   box-sizing: border-box;
 }
-.photo-and-input{
+.modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.photo-and-input {
   position: relative;
   display: flex;
   align-items: center;
 }
-.mini-icon{
-  position:absolute;
-  left:16px;
+.mini-icon {
+  position: absolute;
+  left: 16px;
 }
-.text-comment-div{
+.text-comment-div {
   display: flex;
   flex-direction: column;
 }
-.modal-form-item{
+.modal-form-item {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 4%;
   line-height: 1.16;
   color: #8e8f99;
-  
+}
+#input-name {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #2e2f4266;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#input-name:hover {
+  border: 1px solid #4d5ae5;
+}
+#input-name:focus {
+  border: 1px solid #4d5ae5;
+  outline: none;
+}
+
+#input-tel {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #2e2f4266;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#input-tel:hover {
+  border: 1px solid #4d5ae5;
+}
+#input-tel:focus {
+  border: 1px solid #4d5ae5;
+  outline: none;
+}
+
+#modal-mail {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #2e2f4266;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#modal-mail:hover {
+  border: 1px solid #4d5ae5;
+}
+#modal-mail:focus {
+  border: 1px solid #4d5ae5;
+  outline: none;
+}
+.open-close {
+  position: absolute;
+  top: 24px;
+  left: 360px;
+  bottom: 24px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#modal-button {
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 4%;
+  text-align: center;
+  display: block;
+  gap: 10px;
+  width: 169px;
+  height: 100%;
+  margin: 0 auto;
+}
+#checkbox-modal {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 1.16;
+  color: #8e8f99;
 }
