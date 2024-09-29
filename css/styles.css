@@ -153,6 +153,7 @@ header a span {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  position: relative;
 }
 
 .main-title {
@@ -546,22 +547,36 @@ footer a span {
   background: transparent;
   max-width: 264px;
   max-height: 40px;
+  padding: 8px 16px;
+}
+#form-input::placeholder{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  color: #ffffff;
+  letter-spacing: 4%;
 }
 #foot-button{
   max-width: 165px;
   max-height: 40px;
   background-color: #4d5ae5;
   color: #ffffff;
-  margin-left: 24px;;
+  margin-left: 24px;
+  display: inline-block;
+  padding: 8px 24px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 
+
 .modal {
-  position: sticky; /* Sabitlemek için kullanılır */
-  top: 20px; /* Sayfada yukarıdan 20px mesafede sabitlenir */
-  z-index: 1000; /* Diğer öğelerin üstünde görünür */
-  padding: 20px; /* İç boşluklar */
-  background-color: white; /* Arka plan rengi */
-  border: 1px solid #ddd; /* Kenarlık */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
-  width: 300px; /* Form genişliği */
+  position: fixed;
+  top: 80px; 
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px 0px #00000024,0px 1px 3px 0px #0000001F,0px 2px 1px 0px #00000033;
+  width: 408px;
+  max-height: 584px;
+  display: block;
+  background-color: #fcfcfc;
 }

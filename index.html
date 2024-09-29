@@ -16,26 +16,7 @@
     />
   </head>
   <body>
-    <div class="modal">
-      <h3 class="modal-text">Leave your contacts and we will call you back</h3>
-      <form id="modal-form">
-        <label for="name" id="name">Name
-        <input type="text" id="input-name" name="input-name"/></label>
-        <label for="phone" id="phone">Phone
-          <input type="tel" id="input-tel" name="input-tel"/>
-        </label>
-        <label for="modal-mail" id="modal-mail">Email
-          <input type="email" id="modal-mail" name="modal-mail"/>
-        </label>
-        <label for="comments" id="comments">Comments</label>
-        <textarea id="modal-textarea" name="modal-textarea" ></textarea>
-        <label id="checkbox-l">I accept the terms and condiditions of the <a href="#" target="_blank">Privacy Policy</a>
-          <input type="checkbox" value="yes" name="checkbox-input" />
-        </label>
-        
-      
-      </form>
-    </div>
+   
     <header class="page-header">
       <div class="container container-head">
         <nav class="web-navi">
@@ -79,6 +60,26 @@
      
       <section class="button-sec">
         <div class="container div-first">
+          <div class="modal">
+            <h3 class="modal-text">Leave your contacts and we will call you back</h3>
+            <form id="modal-form">
+              <label for="name" id="name">Name
+              <input type="text" id="input-name" name="input-name"/></label>
+              <label for="phone" id="phone">Phone
+                <input type="tel" id="input-tel" name="input-tel"/>
+              </label>
+              <label for="modal-mail" id="modal-mail">Email
+                <input type="email" id="modal-mail" name="modal-mail"/>
+              </label>
+              <label for="comments" id="comments">Comments</label>
+              <textarea id="modal-textarea" name="modal-textarea" ></textarea>
+              <label id="checkbox-l">I accept the terms and condiditions of the <a href="#" target="_blank">Privacy Policy</a>
+                <input type="checkbox" value="yes" name="checkbox-input" />
+              </label>
+              
+            
+            </form>
+          </div>
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="the-button" type="button">Order Service</button>
         </div>
@@ -560,7 +561,15 @@
             </label>
             
               <input id="form-input" type="email" name="mail" placeholder="E-mail"/>
-              <button id="foot-button" type="submit">Subscribe</button>
+              <button id="foot-button" type="submit">Subscribe
+                <svg
+                id="icon-subs-icon"
+                viewBox="0 0 32 32"
+                width="24px"
+                height="20px">
+              <use href="./images/icons.svg#icon-subs-icon"></use>
+            </svg>
+              </button>
           </form>
         </div>
       </div>
