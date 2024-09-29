@@ -591,4 +591,22 @@ footer a span {
   max-height: 584px;
   display: block;
   background-color: #fcfcfc;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+}
+.photo-and-input{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.mini-icon{
+  position:absolute;
+  left:16px;
+}
+.text-comment-div{
+  display: flex;
+  flex-direction: column;
 }
