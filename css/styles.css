@@ -610,3 +610,11 @@ footer a span {
   display: flex;
   flex-direction: column;
 }
+.modal-form-item{
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 1.16;
+  color: #8e8f99;
+  
+}
