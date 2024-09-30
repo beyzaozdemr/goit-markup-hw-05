@@ -420,6 +420,8 @@ header a span {
 .foot-class {
   padding: 100px 0;
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .foot-a {
   font-weight: 700;
