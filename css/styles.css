@@ -312,13 +312,9 @@ header a span {
 }
 
 .portfolio {
-  display: flex;
+  
   padding: 120px 0;
-  width: 1128px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  
 }
 .port-div {
   width: 360px;
@@ -336,7 +332,7 @@ header a span {
   display: flex;
   padding: 0;
   margin: 0;
-  justify-content: space-between;
+  flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
