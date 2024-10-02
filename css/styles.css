@@ -596,12 +596,14 @@ footer a span {
   
 }
 .modal-text {
+  position: absolute;
+  top: 72px;
+  font-family: Roboto;
   font-weight: 500;
+  color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
-  color: #2e2f42;
-  position: absolute;
   
 }
 .photo-and-input {
@@ -706,6 +708,8 @@ footer a span {
   --color4: #404bbf;
 }
 #modal-button {
+  
+  
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -718,7 +722,7 @@ footer a span {
   display: block;
   gap: 10px;
   width: 169px;
-  height: 100%;
+  
   margin: 0 auto;
 }
 #checkbox-modal {
