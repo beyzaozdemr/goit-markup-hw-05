@@ -586,14 +586,11 @@ footer a span {
 }
 
 .modal {
-  position: fixed;
-  top: 20%;
-  left: 0;
   border-radius: 4px;
   box-shadow: 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001f,
     0px 2px 1px 0px #00000033;
-  width:408px;
-  height: 584px;
+  max-width:408px;
+  max-height:584px;
   background-color: #fcfcfc;
   padding: 24px 32px;
   
@@ -604,6 +601,8 @@ footer a span {
   line-height: 1.5;
   letter-spacing: 2%;
   color: #2e2f42;
+  position: absolute;
+  
 }
 .photo-and-input {
   position: relative;
@@ -625,6 +624,7 @@ footer a span {
   letter-spacing: 4%;
   line-height: 1.16;
   color: #8e8f99;
+  width: 360px;
 }
 #input-name {
   width: 360px;
@@ -727,4 +727,14 @@ footer a span {
   letter-spacing: 4%;
   line-height: 1.16;
   color: #8e8f99;
+}
+.big-modal{
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 20%;
 }
