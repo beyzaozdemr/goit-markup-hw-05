@@ -741,9 +741,10 @@ footer a span {
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   left: 0;
   position: fixed;
-  top: 20%;
+  top:0;
   background-color: #2e2f4266;
   
 }
