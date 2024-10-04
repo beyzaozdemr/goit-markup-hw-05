@@ -603,7 +603,6 @@ footer a span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
- 
 }
 .photo-and-input {
   position: relative;
@@ -724,10 +723,10 @@ footer a span {
 
   margin: 0 auto;
 }
-.ending-button{
-  margin-top:24px;
+.ending-button {
+  margin-top: 24px;
 }
-.checking-div{
+.checking-div {
   margin-top: 16px;
 }
 #checkbox-modal {
@@ -744,9 +743,8 @@ footer a span {
   justify-content: center;
   left: 0;
   position: fixed;
-  top:20%;
-  background-color: #2E2F4266;
-
+  top: 20%;
+  background-color: #2e2f4266;
 }
 #modal-textarea {
   max-width: 360px;
