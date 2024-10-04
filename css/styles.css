@@ -724,6 +724,12 @@ footer a span {
 
   margin: 0 auto;
 }
+.ending-button{
+  margin-top:24px;
+}
+.checking-div{
+  margin-top: 16px;
+}
 #checkbox-modal {
   font-weight: 400;
   font-size: 12px;
@@ -738,7 +744,9 @@ footer a span {
   justify-content: center;
   left: 0;
   position: fixed;
-  top: 20%;
+  top:20%;
+  background-color: #2E2F4266;
+
 }
 #modal-textarea {
   max-width: 360px;
