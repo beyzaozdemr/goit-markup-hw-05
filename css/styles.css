@@ -558,6 +558,11 @@ footer a span {
   max-height: 40px;
   background-color: #4d5ae5;
   color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 4%;
   margin-left: 24px;
   display: inline-flex;
   padding: 8px 24px;
@@ -733,7 +738,7 @@ footer a span {
 }
 .ending-button {
   margin-top: 24px;
-  margin-bottom: 24px;
+  
 }
 .checking-div {
   margin-top: 16px;
